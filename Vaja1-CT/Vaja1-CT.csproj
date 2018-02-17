@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{890A42F0-AB98-49E8-9EA7-974DF19C880E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Vaja1_CT</RootNamespace>
+    <AssemblyName>Vaja1-CT</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="CT_head\0001.img" />
+    <None Include="CT_head\0002.img" />
+    <None Include="CT_head\0003.img" />
+    <None Include="CT_head\0004.img" />
+    <None Include="CT_head\0005.img" />
+    <None Include="CT_head\0006.img" />
+    <None Include="CT_head\0007.img" />
+    <None Include="CT_head\0008.img" />
+    <None Include="CT_head\0009.img" />
+    <None Include="CT_head\0010.img" />
+    <None Include="CT_head\0011.img" />
+    <None Include="CT_head\0012.img" />
+    <None Include="CT_head\0013.img" />
+    <None Include="CT_head\0014.img" />
+    <None Include="CT_head\0015.img" />
+    <None Include="CT_head\0016.img" />
+    <None Include="CT_head\0017.img" />
+    <None Include="CT_head\0018.img" />
+    <None Include="CT_head\0019.img" />
+    <None Include="CT_head\0020.img" />
+    <None Include="CT_head\0021.img" />
+    <None Include="CT_head\0022.img" />
+    <None Include="CT_head\0023.img" />
+    <None Include="CT_head\0024.img" />
+    <None Include="CT_head\0025.img" />
+    <None Include="CT_head\0026.img" />
+    <None Include="CT_head\0027.img" />
+    <None Include="CT_head\0028.img" />
+    <None Include="CT_head\0029.img" />
+    <None Include="CT_head\0030.img" />
+    <None Include="CT_head\0031.img" />
+    <None Include="CT_head\0032.img" />
+    <None Include="CT_head\0033.img" />
+    <None Include="CT_head\0034.img" />
+    <None Include="CT_head\0035.img" />
+    <None Include="CT_head\0036.img" />
+    <None Include="CT_head\0037.img" />
+    <None Include="CT_head\0038.img" />
+    <None Include="CT_head\0039.img" />
+    <None Include="CT_head\0040.img" />
+    <None Include="CT_head\0041.img" />
+    <None Include="CT_head\0042.img" />
+    <None Include="CT_head\0043.img" />
+    <None Include="CT_head\0044.img" />
+    <None Include="CT_head\0045.img" />
+    <None Include="CT_head\0046.img" />
+    <None Include="CT_head\0047.img" />
+    <None Include="CT_head\0048.img" />
+    <None Include="CT_head\0049.img" />
+    <None Include="CT_head\0050.img" />
+    <None Include="CT_head\0051.img" />
+    <None Include="CT_head\0052.img" />
+    <None Include="CT_head\0053.img" />
+    <None Include="CT_head\0054.img" />
+    <None Include="CT_head\0055.img" />
+    <None Include="CT_head\0056.img" />
+    <None Include="CT_head\0057.img" />
+    <None Include="CT_head\0058.img" />
+    <None Include="CT_head\0059.img" />
+    <None Include="CT_head\0060.img" />
+    <None Include="CT_head\0061.img" />
+    <None Include="CT_head\0062.img" />
+    <None Include="CT_head\0063.img" />
+    <None Include="CT_head\0064.img" />
+    <None Include="CT_head\0065.img" />
+    <None Include="CT_head\0066.img" />
+    <None Include="CT_head\0067.img" />
+    <None Include="CT_head\0068.img" />
+    <None Include="CT_head\0069.img" />
+    <None Include="CT_head\0070.img" />
+    <None Include="CT_head\0071.img" />
+    <None Include="CT_head\0072.img" />
+    <None Include="CT_head\0073.img" />
+    <None Include="CT_head\0074.img" />
+    <None Include="CT_head\0075.img" />
+    <None Include="CT_head\0076.img" />
+    <None Include="CT_head\0077.img" />
+    <None Include="CT_head\0078.img" />
+    <None Include="CT_head\0079.img" />
+    <None Include="CT_head\0080.img" />
+    <None Include="CT_head\0081.img" />
+    <None Include="CT_head\0082.img" />
+    <None Include="CT_head\0083.img" />
+    <None Include="CT_head\0084.img" />
+    <None Include="CT_head\0085.img" />
+    <None Include="CT_head\0086.img" />
+    <None Include="CT_head\0087.img" />
+    <None Include="CT_head\0088.img" />
+    <None Include="CT_head\0089.img" />
+    <None Include="CT_head\0090.img" />
+    <None Include="CT_head\0091.img" />
+    <None Include="CT_head\0092.img" />
+    <None Include="CT_head\0093.img" />
+    <None Include="CT_head\0094.img" />
+    <None Include="CT_head\0095.img" />
+    <None Include="CT_head\0096.img" />
+    <None Include="CT_head\0097.img" />
+    <None Include="CT_head\0098.img" />
+    <None Include="CT_head\0099.img" />
+    <None Include="CT_head\0100.img" />
+    <None Include="CT_head\0101.img" />
+    <None Include="CT_head\0102.img" />
+    <None Include="CT_head\0103.img" />
+    <None Include="CT_head\0104.img" />
+    <None Include="CT_head\0105.img" />
+    <None Include="CT_head\0106.img" />
+    <None Include="CT_head\0107.img" />
+    <None Include="CT_head\0108.img" />
+    <None Include="CT_head\0109.img" />
+    <None Include="CT_head\0110.img" />
+    <None Include="CT_head\0111.img" />
+    <None Include="CT_head\0112.img" />
+    <None Include="CT_head\0113.img" />
+    <None Include="CT_head\0114.img" />
+    <None Include="CT_head\0115.img" />
+    <None Include="CT_head\0116.img" />
+    <None Include="CT_head\0117.img" />
+    <None Include="CT_head\0118.img" />
+    <None Include="CT_head\0119.img" />
+    <None Include="CT_head\0120.img" />
+    <None Include="CT_head\0121.img" />
+    <None Include="CT_head\0122.img" />
+    <None Include="CT_head\0123.img" />
+    <None Include="CT_head\0124.img" />
+    <None Include="CT_head\0125.img" />
+    <None Include="CT_head\0126.img" />
+    <None Include="CT_head\0127.img" />
+    <None Include="CT_head\0128.img" />
+    <None Include="CT_head\0129.img" />
+    <None Include="CT_head\0130.img" />
+    <None Include="CT_head\0131.img" />
+    <None Include="CT_head\0132.img" />
+    <None Include="CT_head\0133.img" />
+    <None Include="CT_head\0134.img" />
+    <None Include="CT_head\0135.img" />
+    <None Include="CT_head\0136.img" />
+    <None Include="CT_head\0137.img" />
+    <None Include="CT_head\0138.img" />
+    <None Include="CT_head\0139.img" />
+    <None Include="CT_head\0140.img" />
+    <None Include="CT_head\0141.img" />
+    <None Include="CT_head\0142.img" />
+    <None Include="CT_head\0143.img" />
+    <None Include="CT_head\0144.img" />
+    <None Include="CT_head\0145.img" />
+    <None Include="CT_head\0146.img" />
+    <None Include="CT_head\0147.img" />
+    <None Include="CT_head\0148.img" />
+    <None Include="CT_head\0149.img" />
+    <None Include="CT_head\0150.img" />
+    <None Include="CT_head\0151.img" />
+    <None Include="CT_head\0152.img" />
+    <None Include="CT_head\0153.img" />
+    <None Include="CT_head\0154.img" />
+    <None Include="CT_head\0155.img" />
+    <None Include="CT_head\0156.img" />
+    <None Include="CT_head\0157.img" />
+    <None Include="CT_head\0158.img" />
+    <None Include="CT_head\0159.img" />
+    <None Include="CT_head\0160.img" />
+    <None Include="CT_head\0161.img" />
+    <None Include="CT_head\0162.img" />
+    <None Include="CT_head\0163.img" />
+    <None Include="CT_head\0164.img" />
+    <None Include="CT_head\0165.img" />
+    <None Include="CT_head\0166.img" />
+    <None Include="CT_head\0167.img" />
+    <None Include="CT_head\0168.img" />
+    <None Include="CT_head\0169.img" />
+    <None Include="CT_head\0170.img" />
+    <None Include="CT_head\0171.img" />
+    <None Include="CT_head\0172.img" />
+    <None Include="CT_head\0173.img" />
+    <None Include="CT_head\0174.img" />
+    <None Include="CT_head\0175.img" />
+    <None Include="CT_head\0176.img" />
+    <None Include="CT_head\0177.img" />
+    <None Include="CT_head\0178.img" />
+    <None Include="CT_head\0179.img" />
+    <None Include="CT_head\0180.img" />
+    <None Include="CT_head\0181.img" />
+    <None Include="CT_head\0182.img" />
+    <None Include="CT_head\0183.img" />
+    <None Include="CT_head\0184.img" />
+    <None Include="CT_head\0185.img" />
+    <None Include="CT_head\0186.img" />
+    <None Include="CT_head\0187.img" />
+    <None Include="CT_head\0188.img" />
+    <None Include="CT_head\0189.img" />
+    <None Include="CT_head\0190.img" />
+    <None Include="CT_head\0191.img" />
+    <None Include="CT_head\0192.img" />
+    <None Include="CT_head\0193.img" />
+    <None Include="CT_head\0194.img" />
+    <None Include="CT_head\0195.img" />
+    <None Include="CT_head\0196.img" />
+    <None Include="CT_head\0197.img" />
+    <None Include="CT_head\0198.img" />
+    <None Include="CT_head\0199.img" />
+    <None Include="CT_head\0200.img" />
+    <None Include="CT_head\0201.img" />
+    <None Include="CT_head\0202.img" />
+    <None Include="CT_head\0203.img" />
+    <None Include="CT_head\0204.img" />
+    <None Include="CT_head\0205.img" />
+    <None Include="CT_head\0206.img" />
+    <None Include="CT_head\0207.img" />
+    <None Include="CT_head\0208.img" />
+    <None Include="CT_head\0209.img" />
+    <None Include="CT_head\0210.img" />
+    <None Include="CT_head\0211.img" />
+    <None Include="CT_head\0212.img" />
+    <None Include="CT_head\0213.img" />
+    <None Include="CT_head\0214.img" />
+    <None Include="CT_head\0215.img" />
+    <None Include="CT_head\0216.img" />
+    <None Include="CT_head\0217.img" />
+    <None Include="CT_head\0218.img" />
+    <None Include="CT_head\0219.img" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

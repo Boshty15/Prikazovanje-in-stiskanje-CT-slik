@@ -1,0 +1,10 @@
+C:\Users\Bostjan\Documents\FERI\3.Letnik\Racunalnsika vecpredstavnost\Naloga1\Vaja1-CT\Vaja1-CT\bin\Debug\Vaja1-CT.exe.config
+C:\Users\Bostjan\Documents\FERI\3.Letnik\Racunalnsika vecpredstavnost\Naloga1\Vaja1-CT\Vaja1-CT\bin\Debug\Vaja1-CT.exe
+C:\Users\Bostjan\Documents\FERI\3.Letnik\Racunalnsika vecpredstavnost\Naloga1\Vaja1-CT\Vaja1-CT\bin\Debug\Vaja1-CT.pdb
+C:\Users\Bostjan\Documents\FERI\3.Letnik\Racunalnsika vecpredstavnost\Naloga1\Vaja1-CT\Vaja1-CT\obj\Debug\Vaja1-CT.csprojResolveAssemblyReference.cache
+C:\Users\Bostjan\Documents\FERI\3.Letnik\Racunalnsika vecpredstavnost\Naloga1\Vaja1-CT\Vaja1-CT\obj\Debug\Vaja1_CT.Form1.resources
+C:\Users\Bostjan\Documents\FERI\3.Letnik\Racunalnsika vecpredstavnost\Naloga1\Vaja1-CT\Vaja1-CT\obj\Debug\Vaja1_CT.Properties.Resources.resources
+C:\Users\Bostjan\Documents\FERI\3.Letnik\Racunalnsika vecpredstavnost\Naloga1\Vaja1-CT\Vaja1-CT\obj\Debug\Vaja1-CT.csproj.GenerateResource.Cache
+C:\Users\Bostjan\Documents\FERI\3.Letnik\Racunalnsika vecpredstavnost\Naloga1\Vaja1-CT\Vaja1-CT\obj\Debug\Vaja1-CT.csproj.CoreCompileInputs.cache
+C:\Users\Bostjan\Documents\FERI\3.Letnik\Racunalnsika vecpredstavnost\Naloga1\Vaja1-CT\Vaja1-CT\obj\Debug\Vaja1-CT.exe
+C:\Users\Bostjan\Documents\FERI\3.Letnik\Racunalnsika vecpredstavnost\Naloga1\Vaja1-CT\Vaja1-CT\obj\Debug\Vaja1-CT.pdb
